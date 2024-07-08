@@ -10,7 +10,7 @@ class PaymentController extends Controller
 {
     public function showPaymentForm()
     {
-        return view('payments');
+        return view('payments.payments');
     }
 
     
